@@ -7,9 +7,10 @@ Running the applicaiton
 This application will produce a single text file listing all concordances parsed either from a single specified xml file 
 or from all xml files found in a specified directory and recursively through its subdirectories
 
-The XML files are expected to have the format used in the xml files found in the provided download/Texts folder of the provided zip file ota_20.500.12024_2554.zip 
+The XML files are expected to be in the British National Corpus format 
 
 The jar should be executed from the command line using the following syntax:
+
 java -jar KWIC-1.0-SNAPSHOT.jar [filepath] [node] [window size]
 
 Where... 
