@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<p>
+	<s n="11">
+		<w c5="AT0" hw="the" pos="ART">The </w>
+		<w c5="AJ0" hw="medical" pos="ADJ">medical </w>
+		<w c5="NN2" hw="aspect" pos="SUBST">aspects </w>
+		<w c5="VM0" hw="can" pos="VERB">can </w>
+		<w c5="VBI" hw="be" pos="VERB">be </w>
+		<w c5="NN1" hw="cancer" pos="SUBST">cancer</w>
+	</s>
+</p>

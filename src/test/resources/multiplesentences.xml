@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<p>
+	<s n="11">
+		<w c5="AT0" hw="the" pos="ART">The </w>
+		<w c5="AJ0" hw="medical" pos="ADJ">medical </w>
+		<w c5="NN2" hw="aspect" pos="SUBST">aspects </w>
+		<w c5="VM0" hw="can" pos="VERB">can </w>
+		<w c5="VBI" hw="be" pos="VERB">be </w>
+		<w c5="NN1" hw="cancer" pos="SUBST">cancer</w>
+	</s>
+	<s n="105">
+		<w c5="PNP" hw="you" pos="PRON">You </w>
+		<w c5="VBB" hw="be" pos="VERB">are </w>
+		<w c5="AV0" hw="also" pos="ADV">also </w>
+		<w c5="VVN" hw="ask" pos="VERB">asked </w>
+		<w c5="TO0" hw="to" pos="PREP">to </w>
+		<w c5="VVI" hw="keep" pos="VERB">keep </w>
+		<w c5="DPS" hw="you" pos="PRON">your </w>
+		<w c5="NN1" hw="church" pos="SUBST">church </w>
+		<w c5="NN2" hw="leader" pos="SUBST">leaders </w>
+		<w c5="VVN-VVD" hw="inform" pos="VERB">informed </w>
+		<w c5="PRF" hw="of" pos="PREP">of </w>
+		<w c5="DPS" hw="you" pos="PRON">your </w>
+		<w c5="NN1" hw="involvement" pos="SUBST">involvement </w>
+		<mw c5="CJS">
+			<w c5="AV0" hw="so" pos="ADV">so </w>
+			<w c5="CJT" hw="that" pos="CONJ">that </w>
+		</mw>
+		<w c5="PNP" hw="they" pos="PRON">they </w>
+		<w c5="VM0" hw="can" pos="VERB">can </w>
+		<w c5="VVI" hw="ensure" pos="VERB">ensure </w>
+		<w c5="PNP" hw="you" pos="PRON">you </w>
+		<w c5="VBB" hw="be" pos="VERB">are </w>
+		<w c5="AV0" hw="adequately" pos="ADV">adequately </w>
+		<w c5="VVN" hw="support" pos="VERB">supported</w>
+		<c c5="PUN">.</c>
+	</s>
+</p>
