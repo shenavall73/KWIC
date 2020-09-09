@@ -42,7 +42,7 @@ and succsessfully parsed all files, but producing an extremely high volume of ou
 Build
 ---
 
-Development of the parsing and concordance logic for this project was test-driven - please see the tests in src/main/java/org/bamford/KWIC that assert the expected logic
+Development of the parsing and concordance logic for this project was test-driven - please see the tests in src/test/java/org/bamford/KWIC that assert the expected logic
 
 This project is built in Maven to produce the standalone executable jar as described above in the target folder  
    
