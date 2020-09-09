@@ -1,8 +1,10 @@
 Key Word in Context project
 ---
 
-Running the applicaiton
+Running the application
 ---
+
+For ease of use without needing to build the application, the executable jar for this project has been added in the target directory of Github
 
 This application will produce a single text file listing all concordances parsed either from a single specified xml file 
 or from all xml files found in a specified directory and recursively through its subdirectories
