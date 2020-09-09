@@ -11,9 +11,17 @@ The XML files are expected to have the format used in the xml files found in the
 
 The jar should be executed from the command line using the following syntax:
 java -jar KWIC-1.0-SNAPSHOT.jar [filepath] [node] [window size]
-Where [filepath] is the relative path to a single xml file or a directory that should be recursively searched for xml files
+
+Where... 
+
+[filepath] is the relative path to a single xml file or a directory that should be recursively searched for xml files
+
+
 [node] is the node name
+
+
 [window size] is the window size
+
 EG issuing the command 'java -jar KWIC-1.0.SNAPSHOT.jar Texts/A blood 5' from the command line located in a directory containing both the jar and a folder structure Texts/A
 would recursively search all XML files within Texts/A, find all sentences with the word 'blood' in each processed file, and add a concordance line to the output file 
 with a window size of 5 words either side of the word 'blood' (or up to the beginning/end of the sentence where these are closer)
@@ -36,5 +44,6 @@ Development of the parsing and concordance logic for this project was test-drive
 This project is built in Maven to produce the standalone executable jar as described above in the target folder  
    
 For users unfamiliar with Maven, you will need to download and unpack the latest (or recent) version of Maven (https://maven.apache.org/download.cgi) , 
-create a MAVEN_HOME environment variable for the installed directory and add this to your path.
+then create a MAVEN_HOME environment variable for the installed directory and add this to your path.
+
 Now you can run `mvn clean install` in the top-level directory containing the pom.xml file and Maven will compile the project and put the jar file in the `target` directory.
