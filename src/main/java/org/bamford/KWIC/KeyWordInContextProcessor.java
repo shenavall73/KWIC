@@ -63,8 +63,10 @@ public class KeyWordInContextProcessor {
     }
 
     private void processFileOrDirectory(final File file) throws ParserConfigurationException, SAXException, IOException {
-        if (file.isFile() && "xml".equalsIgnoreCase(getFileExtension(file))) {
-            produceConcordancesForFile(file.getPath());
+        if (file.isFile()) {
+            if ("xml".equalsIgnoreCase(getFileExtension(file))) {
+                produceConcordancesForFile(file.getPath());
+            }
         } else {
             processDirectory(file);
         }
